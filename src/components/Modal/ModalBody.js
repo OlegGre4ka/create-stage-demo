@@ -23,7 +23,7 @@ const ModalBody = styled.div`
   background-color: white;
   width: 636px;
   height: 663px;
-  padding: 10px 32px;
+  padding: 24px 32px 40px 32px;
   border-radius: 16px;
   opacity: 0;
 //   opacity:${({opacity})=> opacity ? opacity : 0};
