@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-const BtnStyled = styled.button`
+const BtnStyled = styled.button.attrs(props => ({
+  type: props.type,
+  disabled: props.disabled
+}))`
   position: relative;
   font-family: 'Rubik';
   font-size: 16px;

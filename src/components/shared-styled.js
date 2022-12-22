@@ -30,4 +30,28 @@ const Text = styled.span`
     cursor: ${({cursor})=> cursor && cursor}
   }
 `
-export {FlexBox, Text}
+const StepBox = styled(FlexBox)`
+  flex-direction: column;
+  background-color: #f6f8fd;
+  width: 770px;
+  height: 496px;
+  height: fit-content;
+  margin: 15px 0 39px 0;
+  padding: 48px 100px;
+  border-radius: 8px;
+`
+
+const Error = styled.span`
+  display: block;
+  font-family: ${props => props.fontFamily ? props.fontFamily : 'Roboto'};
+  color: red; 
+  font-size: 14px;
+  font-weight: 400;
+  margin: ${({margin}) => margin ? margin : ""};
+  padding: ${({padding}) => padding ? padding : "5px"};
+  text-align: ${({textAlign}) => textAlign ? textAlign : "left"}; 
+  white-space: normal; 
+  overflow-wrap: break-word;
+`
+export default Error
+export {FlexBox, Text, StepBox, Error}

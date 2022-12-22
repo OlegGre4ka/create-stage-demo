@@ -59,7 +59,7 @@ const StepSlider = ({step}) => {
         }
     }
     return (
-        <FlexBox justifyContent="space-between" alignItems="center" margin="24px 0 0 0">
+        <FlexBox justifyContent="space-between" alignItems="center" margin="24px 0 0 0" width="670px">
             <FlexBox justifyContent="center" alignItems="center" margin="0 11px 0 0">
                     <Circle>1</Circle> <Text margin="0 0 0 10px">Basic  Configuration</Text>
             </FlexBox>

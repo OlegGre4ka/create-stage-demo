@@ -1,8 +1,10 @@
+import {StepBox} from "./../../components/shared-styled";
+
 const StepThree = () => {
     return (
-        <>
-            <h3>Step Three</h3>
-        </>
+        <StepBox>
+        <h3>Step Three</h3>
+    </StepBox>
 
     )
 }

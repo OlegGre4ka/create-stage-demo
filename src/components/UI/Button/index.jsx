@@ -1,11 +1,12 @@
 import React from "react";
 import BtnStyled from "./styled.js";
 
-const Button = ({ children, clickHandler, disabled,
+const Button = ({ children, clickHandler, disabled, type,
      width, height, color, backgroundColor, hoverBackgroundColor, border, padding, hoverColor, hooverBackgroundColor }) => {   
     return (<BtnStyled
         onClick={clickHandler}
         disabled={disabled}
+        type={type}
         width={width}
         height={height}
         color={color}

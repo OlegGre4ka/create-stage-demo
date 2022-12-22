@@ -21,13 +21,11 @@ const ModalBody = styled.div`
   flex-direction: column;
   overflow: auto;
   background-color: white;
-  width: 636px;
+  width: 771px;
   height: 663px;
   padding: 24px 32px 40px 32px;
   border-radius: 16px;
   opacity: 0;
-//   opacity:${({opacity})=> opacity ? opacity : 0};
-//   transition : all 0.3s ease-in-out;
   animation:  ${({isOpacity}) => isOpacity ? modalTrueOpacity : modalFalseOpacity} .4s 1 linear forwards;
 `;
 
