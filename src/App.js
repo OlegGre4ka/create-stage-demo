@@ -30,7 +30,7 @@ function App() {
     title: "",
     subtitle: "",
     stageType: "",
-    // file: ""
+    files: []
   })
   const { register, handleSubmit, watch, formState: { errors, isValid } } = useForm({
     resolver: yupResolver(schema),
@@ -47,6 +47,7 @@ function App() {
     setFormStepOne(data);
     console.log(data, "data");
   }
+  console.log(formStepOne, "formStepOne")
   return (
     <>
       <FlexBox padding="25px">
